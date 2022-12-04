@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1,h2,h3,p{
+    color: white;
+}
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+ul{
+    list-style: none;
+}
+header{
+    text-align: center;
+    padding: 32px 0;
+}
+header,
+section{
+    max-width: 300px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+section h2{
+    background-color: red;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+ul li{
+    margin-bottom: 16px;
+}
+li .details{
+    border: 1px solid red;
+    text-align: center;    
+}
+ul .adicine {
+   border: 1px solid red;
+   display: flex;
+}
+img{
+    max-width: 300px;
+    max-height: 300px;
+   
+}
+strong{
+    color: rgb(248, 244, 4);
+}
